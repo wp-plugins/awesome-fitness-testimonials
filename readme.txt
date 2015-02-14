@@ -42,6 +42,9 @@ Although this plugin is built primarily for fitness web design, its features mak
 ####  In Your Language ####
 * We made your the plugin is fully translation ready and we hope to have it translated in many languages. If you are good at translating and would like to contribute, please let us know. 
 
+####  Tutorial ####
+https://www.youtube.com/watch?v=IUdNHL9po-8
+
 ####  Feature Requests and Updates ####
 * [Get notified when new features are released](http://fitnesswebsiteformula.com/wordpress-fitness-testimonials/learn-more/ "Get updates")
 
