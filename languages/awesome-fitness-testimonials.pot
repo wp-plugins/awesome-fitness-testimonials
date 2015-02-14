@@ -1,0 +1,677 @@
+# WordPress Blank Pot
+# Copyright (C) 2014 ...
+# This file is distrubuted under the GPL-2.0+
+msgid ""
+msgstr ""
+"Project-Id-Version: Awesome Fitness Testimonials v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2015-01-03 02:35-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Fitness Website Formula <support@fitnesswebsiteformula.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/admin.php:74
+msgid "Testimonial Image"
+msgstr ""
+
+#: includes/admin.php:75
+msgid "Enable Re-sizing"
+msgstr ""
+
+#: includes/admin.php:76
+msgid "Image Max Width"
+msgstr ""
+
+#: includes/admin.php:77
+msgid "Image Max Height"
+msgstr ""
+
+#: includes/admin.php:78
+msgid "Alternate Alignment"
+msgstr ""
+
+#: includes/admin.php:79
+msgid "Rotate Images With an Arrow"
+msgstr ""
+
+#: includes/admin.php:82
+msgid "Misc Options"
+msgstr ""
+
+#: includes/admin.php:83
+msgid "Exclude from search"
+msgstr ""
+
+#: includes/admin.php:84
+msgid "Disable single view pages"
+msgstr ""
+
+#: includes/admin.php:85
+msgid "Add Quotes"
+msgstr ""
+
+#: includes/admin.php:86
+msgid "Minimum Testimonials per Tag"
+msgstr ""
+
+#: includes/admin.php:87
+msgid "Weight Unit"
+msgstr ""
+
+#: includes/admin.php:88
+msgid "Remove data on uninstall"
+msgstr ""
+
+#: includes/admin.php:91
+msgid "Colors"
+msgstr ""
+
+#: includes/admin.php:92
+msgid "Background"
+msgstr ""
+
+#: includes/admin.php:93
+msgid "Main Text"
+msgstr ""
+
+#: includes/admin.php:94
+msgid "Main Text (Alternate)"
+msgstr ""
+
+#: includes/admin.php:95
+msgid "Title"
+msgstr ""
+
+#: includes/admin.php:98
+msgid "Custom Layout CSS"
+msgstr ""
+
+#: includes/admin.php:99
+msgid "Your Own CSS"
+msgstr ""
+
+#: includes/admin.php:102
+msgid "Custom Layout HTML"
+msgstr ""
+
+#: includes/admin.php:103
+msgid "No Image HTML"
+msgstr ""
+
+#: includes/admin.php:104
+msgid "Single Image HTML"
+msgstr ""
+
+#: includes/admin.php:105
+msgid "Double Image HTML"
+msgstr ""
+
+#: includes/admin.php:106
+msgid "Video Layout HTML"
+msgstr ""
+
+#: includes/admin.php:107
+msgid "Alternate Layout 1 HTML"
+msgstr ""
+
+#: includes/admin.php:108
+msgid "Alternate Layout 2 HTML"
+msgstr ""
+
+#: includes/admin.php:111
+msgid "Promotion"
+msgstr ""
+
+#: includes/admin.php:112
+msgid "Content In-between Testimonials"
+msgstr ""
+
+#: includes/admin.php:113
+msgid "Insert above content after every"
+msgstr ""
+
+#: includes/admin.php:114
+msgid "Facebook Like button"
+msgstr ""
+
+#: includes/admin.php:124
+msgid "Enter name here"
+msgstr ""
+
+#: includes/admin.php:133
+msgid "Enter the main text or video..."
+msgstr ""
+
+#: includes/admin.php:193
+msgctxt "noun: Testimonial excerpt"
+msgid "Excerpt"
+msgstr ""
+
+#: includes/admin.php:194
+msgid "Choose Image"
+msgstr ""
+
+#: includes/admin.php:195
+msgid "Shorter Testimonial"
+msgstr ""
+
+#: includes/admin.php:207
+msgid "Configure settings"
+msgstr ""
+
+#: includes/admin.php:208
+#, php-format
+msgid "Fitness &amp; Wellness Testimonials is now installed. %s"
+msgstr ""
+
+#: includes/admin.php:267
+msgid "Edit"
+msgstr ""
+
+#: includes/admin.php:267
+msgid "Edit this item inline"
+msgstr ""
+
+#: includes/admin.php:267
+msgid "Quick Edit"
+msgstr ""
+
+#: includes/admin.php:267
+msgctxt "verb: view result"
+msgid "View"
+msgstr ""
+
+#: includes/admin.php:314
+msgctxt "adjective: Auto (Automatic) temperature control"
+msgid "Auto"
+msgstr ""
+
+#: includes/admin.php:342
+msgid "All Groups"
+msgstr ""
+
+#: includes/admin.php:367
+msgid "Settings"
+msgstr ""
+
+#: includes/admin.php:421 includes/admin.php:428
+msgid "Testimonial Settings"
+msgstr ""
+
+#: includes/admin.php:434
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin.php:435
+msgctxt "noun: options for styles"
+msgid "Styles"
+msgstr ""
+
+#: includes/admin.php:436
+msgctxt "noun: marketing options"
+msgid "Marketing"
+msgstr ""
+
+#: includes/admin.php:437
+msgctxt "adjective: more complex options"
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin.php:438
+msgctxt "noun: import options"
+msgid "Import"
+msgstr ""
+
+#: includes/admin.php:439
+msgctxt "noun: integration options"
+msgid "Integration"
+msgstr ""
+
+#: includes/admin.php:460 includes/admin.php:778
+msgid "Preview"
+msgstr ""
+
+#: includes/admin.php:475
+msgid "Save All Changes"
+msgstr ""
+
+#: includes/admin.php:477
+msgid "Are you sure you want to reset all of your settings to default?"
+msgstr ""
+
+#: includes/admin.php:477
+msgid "Reset All Settings"
+msgstr ""
+
+#: includes/admin.php:495
+#, php-format
+msgid ""
+"Use %s tags in HTML code below. The tags will be automatically replaced with "
+"respective data."
+msgstr ""
+
+#: includes/admin.php:577
+msgid "None"
+msgstr ""
+
+#: includes/admin.php:578
+msgid "Top"
+msgstr ""
+
+#: includes/admin.php:579
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin.php:580
+msgid "Top & Bottom"
+msgstr ""
+
+#: includes/admin.php:595
+msgid "Turn on for automatically resizing pictures."
+msgstr ""
+
+#: includes/admin.php:595
+msgid "(Recommended  unless your images are already resized.)"
+msgstr ""
+
+#: includes/admin.php:600
+msgid ""
+"Maximum width images are allowed before re-sizing occurs. Your uploaded "
+"images need to be larger than this width."
+msgstr ""
+
+#: includes/admin.php:600
+msgid ""
+"Images will be resized and cropped to this width if they are larger. "
+"(150-300px recommended)"
+msgstr ""
+
+#: includes/admin.php:604
+msgid ""
+"Maximum height images are allowed before re-sizing occurs. Your uploaded "
+"images need to be larger than this width."
+msgstr ""
+
+#: includes/admin.php:604
+msgid ""
+"Images will be resized and cropped to this height if they are larger. "
+"(200-400px recommended)"
+msgstr ""
+
+#: includes/admin.php:608
+msgid "Alternate images on the right and left sides."
+msgstr ""
+
+#: includes/admin.php:612
+msgid ""
+"Slightly rotate images and add a transformation arrow (double layout only)."
+msgstr ""
+
+#: includes/admin.php:621
+msgid "Pounds / lbs"
+msgstr ""
+
+#: includes/admin.php:622
+msgid "Kilograms / kgs"
+msgstr ""
+
+#: includes/admin.php:634
+msgid ""
+"Remove all testimonials and settings from your database upon plugin "
+"uninstall. Do not choose this unless you are sure."
+msgstr ""
+
+#: includes/admin.php:638
+msgid ""
+"In some cases, it's beneficial to disable testimonial single view pages for "
+"SEO if they are not used."
+msgstr ""
+
+#: includes/admin.php:642
+msgid ""
+"Turn on to prevent testimonials from showing up in search results within "
+"WordPress."
+msgstr ""
+
+#: includes/admin.php:646
+msgid ""
+"Turn on to automatically add double quotes around the testimonial texts."
+msgstr ""
+
+#: includes/admin.php:650
+msgid ""
+"This adds random testimonials to supplement if a minimum number not reached "
+"within a testimonial group. Use \"0\" to disable."
+msgstr ""
+
+#: includes/admin.php:711
+msgid "Layout Options"
+msgstr ""
+
+#: includes/admin.php:722
+msgid "Layout Type"
+msgstr ""
+
+#: includes/admin.php:726
+msgctxt "Layout"
+msgid "Default (Automatic)"
+msgstr ""
+
+#: includes/admin.php:727
+msgctxt "Layout"
+msgid "Text Only"
+msgstr ""
+
+#: includes/admin.php:728
+msgctxt "Layout"
+msgid "Single Image"
+msgstr ""
+
+#: includes/admin.php:729
+msgctxt "Layout"
+msgid "Double Image"
+msgstr ""
+
+#: includes/admin.php:730
+msgctxt "Layout"
+msgid "Video"
+msgstr ""
+
+#: includes/admin.php:731
+msgctxt "Layout"
+msgid "Alternate 1"
+msgstr ""
+
+#: includes/admin.php:732
+msgctxt "Layout"
+msgid "Alternate 2"
+msgstr ""
+
+#: includes/admin.php:745
+msgid "Before Image"
+msgstr ""
+
+#: includes/admin.php:747 includes/admin.php:753
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin.php:748 includes/admin.php:754
+#, php-format
+msgid "This image URL must exist within %s"
+msgstr ""
+
+#: includes/admin.php:751
+msgid "After Image"
+msgstr ""
+
+#: includes/admin.php:757
+msgctxt "noun: I am quoting from a testimonial"
+msgid "Highlighted Quote"
+msgstr ""
+
+#: includes/admin.php:758
+msgid "e.g. I Highly Recommend Them!"
+msgstr ""
+
+#: includes/admin.php:761
+msgctxt "noun: Subtext to supplement the provider's name"
+msgid "Provider Subtext"
+msgstr ""
+
+#: includes/admin.php:762
+msgid "e.g. title, affiliation, from ___, , etc"
+msgstr ""
+
+#: includes/admin.php:765
+msgctxt "noun: My start weight was 280 lbs before"
+msgid "Start Weight"
+msgstr ""
+
+#: includes/admin.php:766
+msgid "Beginning weight of your weight loss client in lbs or kgs"
+msgstr ""
+
+#: includes/admin.php:769
+msgctxt "noun: My current weight is __ lbs"
+msgid "Current Weight"
+msgstr ""
+
+#: includes/admin.php:770
+msgid "Lower than the start weight if weight loss; higher if muscle gain."
+msgstr ""
+
+#: includes/admin.php:781
+msgid "Refresh Preview"
+msgstr ""
+
+#: includes/admin.php:826
+msgid "Testimonial Shortcodes"
+msgstr ""
+
+#: includes/admin.php:827
+msgid "Insert testimonial shortcode"
+msgstr ""
+
+#: includes/admin.php:828
+msgid "Group"
+msgstr ""
+
+#: includes/admin.php:829
+msgid "Limit"
+msgstr ""
+
+#: includes/admin.php:830
+msgid "Random Order"
+msgstr ""
+
+#: includes/admin.php:831
+msgid "Use Excerpt?"
+msgstr ""
+
+#: includes/admin.php:832
+msgid "Use Javascript?"
+msgstr ""
+
+#: includes/admin.php:833
+msgid "No testimonial group found!"
+msgstr ""
+
+#: includes/admin.php:834
+msgid "Not set"
+msgstr ""
+
+#: includes/functions.php:26
+msgid "Testimonials"
+msgstr ""
+
+#: includes/functions.php:27
+msgid "Testimonial"
+msgstr ""
+
+#: includes/functions.php:28
+msgid "Add New"
+msgstr ""
+
+#: includes/functions.php:29
+msgid "Add New Testimonial"
+msgstr ""
+
+#: includes/functions.php:30
+msgid "Edit Testimonial"
+msgstr ""
+
+#: includes/functions.php:31
+msgid "New Testimonial"
+msgstr ""
+
+#: includes/functions.php:32
+msgid "View Testimonial"
+msgstr ""
+
+#: includes/functions.php:33
+msgid "Search Testimonial"
+msgstr ""
+
+#: includes/functions.php:34
+msgid "No Testimonials found"
+msgstr ""
+
+#: includes/functions.php:35
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: includes/functions.php:66
+msgctxt "taxonomy general name"
+msgid "Testimonial Groups"
+msgstr ""
+
+#: includes/functions.php:67
+msgctxt "taxonomy singular name"
+msgid "Testimonial Group"
+msgstr ""
+
+#: includes/functions.php:68
+msgid "Search Testimonial Groups"
+msgstr ""
+
+#: includes/functions.php:69
+msgid "All Testimonial Groups"
+msgstr ""
+
+#: includes/functions.php:70
+msgid "Parent Testimonial Group"
+msgstr ""
+
+#: includes/functions.php:71
+msgid "Parent Testimonial Group:"
+msgstr ""
+
+#: includes/functions.php:72
+msgid "Edit Testimonial Group"
+msgstr ""
+
+#: includes/functions.php:73
+msgid "Update Group"
+msgstr ""
+
+#: includes/functions.php:74
+msgid "Add New Group"
+msgstr ""
+
+#: includes/functions.php:75
+msgid "New Group Name"
+msgstr ""
+
+#: includes/functions.php:76
+msgid "Groups"
+msgstr ""
+
+#: includes/functions.php:91
+msgid "All Success Stories"
+msgstr ""
+
+#: includes/functions.php:94
+msgid "For showing all of your testimonials"
+msgstr ""
+
+#: includes/functions.php:101
+msgid "Featured"
+msgstr ""
+
+#: includes/functions.php:104
+msgid "Featured, \"best of the best\" testimonials"
+msgstr ""
+
+#: includes/functions.php:116
+msgctxt "default testimonial taxonomy name"
+msgid "Nutrition clients"
+msgstr ""
+
+#: includes/functions.php:123
+msgid "Boot Camp"
+msgstr ""
+
+#: includes/functions.php:126
+msgctxt "default testimonial taxonomy name"
+msgid "Boot Camp clients"
+msgstr ""
+
+#: includes/functions.php:133
+msgid "Personal Training"
+msgstr ""
+
+#: includes/functions.php:136
+msgctxt "default testimonial taxonomy name"
+msgid "Semi-private Training, Bootcamp Clients, etc"
+msgstr ""
+
+#: includes/functions.php:143
+msgid "Sports Training"
+msgstr ""
+
+#: includes/functions.php:146
+msgctxt "default testimonial taxonomy name"
+msgid "Strength, sports training athletes, etc"
+msgstr ""
+
+#: includes/functions.php:375
+msgid "Customer Name"
+msgstr ""
+
+#: includes/functions.php:376
+msgid "Testimonial Highlight Quote Goes Here"
+msgstr ""
+
+#: includes/functions.php:377
+msgid "Testimonial provider"
+msgstr ""
+
+#: includes/functions.php:485 includes/functions.php:486
+msgctxt "past tense verb: Lost a lot of weight"
+msgid "Lost"
+msgstr ""
+
+#: includes/functions.php:576
+#, php-format
+msgid "Testimonial Picture of %s (1)"
+msgstr ""
+
+#: includes/functions.php:578
+#, php-format
+msgid "Testimonial Picture of %s (2)"
+msgstr ""
+
+#: includes/post-ordering.php:126
+msgid "Invalid post type"
+msgstr ""
+
+#: includes/post-ordering.php:145
+msgid "Order"
+msgstr ""
+
+#: includes/post-ordering.php:146
+msgid "Reset"
+msgstr ""
+
+#: includes/post-ordering.php:179
+msgid ""
+"Are you sure you want to reset testimonial order?\n"
+" 'Cancel' to stop, 'OK' to reset."
+msgstr ""
+
+#: includes/post-ordering.php:208
+msgid "Invalid ordering number is posted."
+msgstr ""

@@ -1,0 +1,200 @@
+
+/* Admin CSS */
+
+.col_subtext { display:block; font-style:italic; color:#666; font-size:10px; font-weight:normal; text-decoration:none;}
+.col_images {width:120px;}
+.testimonial-tag-count {color:#999;}
+.userafimg-single { background: url(images/userafimg-single.png) no-repeat;height:287px; width: 286px;margin:0px auto}
+.userbfinner-single{ padding: 14px; text-align:center}
+.clientbox { margin: 18px 0 40px 0px;}
+.ace_editor {height:200px;}
+.wp-picker-holder {position: absolute;z-index: 1;}
+i.mce-i-icon {font: 400 20px/1 dashicons; padding: 0; vertical-align: top; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;  margin-left: -2px; padding-right: 2px; }
+i.wpftshortcode-own-icon {background-image: url(images/FWF-Icon-16.png);}
+.dashicons-wpft-order {background-image: url(images/dashicon-order.png);}
+
+/* jquery UI tabs */
+
+#wpft-admintabs { padding:5px; border:none; border-radius:0; -webkit-border-radius:0; -moz-border-radius:0; background: #f1f1f1; border-top: none; border-radius: 0; border-left: none; border-right: none; }
+#wpft-admintabs .ui-widget-header { border-bottom: 1px solid #0cf; background:none; border-top: none; border-radius: 0; border-left: none; border-right: none; }
+#wpft-admintabs .ui-state-default, #wpft-admintabs.ui-widget-content .ui-state-default, #wpft-admintabs .ui-widget-header .ui-state-default { background:#e4e4e4; color:#999; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-color: #ccc; margin-bottom: 0; }
+#wpft-admintabs .ui-state-default:hover, #wpft-admintabs.ui-widget-content .ui-state-default:hover, #wpft-admintabs .ui-widget-header .ui-state-default:hover { background:#fff; }
+#wpft-admintabs .ui-state-active, #wpft-admintabs.ui-widget-content .ui-state-active, #wpft-admintabs .ui-widget-header .ui-state-active { background:#f1f1f1; color:#000; border-top: 4px solid #0cf; border-color:#0cf; border-bottom:none; white-space: nowrap; }
+#wpft-admintabs .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color:#a4a4a4; font-weight: bold; }
+#wpft-admintabs .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color:#000; }
+#wpft-admintabs .ui-state-active a:focus {box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; }
+#wpft-admintabs .inside {padding: 1% 0; }
+
+
+/* Edit & settings screens */
+
+#content-gmet.active { border-color: #ccc #ccc #f4f4f4; background-color: #f4f4f4; color: #555; }
+#wpft_excerpt_wrap {display:none; }
+#wpft_excerpt_wrap .quicktags-toolbar {padding:10px; }
+.wpft-active .swith-wpft {background: #f5f5f5;color: #555;height: 20px;border-bottom: none;}
+#wpft-editor-excerpt {min-height:100px;}
+.tooltipsy {padding: 10px;max-width: 280px;color: #303030;background-color: rgba(245, 245, 181, .9);border: 1px solid #deca7e;font-size:12px;}
+.hastip {background:url(images/icon-help.png) no-repeat 50% 50%;cursor:pointer; width: 14px;height: 14px; display: inline-block;vertical-align: -2px;}
+#wpft-upgrade-notice {background-color: #00C31F;border-color: #0a0;float: right;height: 28px;margin: 0 6px;border: 1px solid #ddd;border-top: none;font-weight: bold;color: #DEFFD8;text-shadow: none;padding: 3px 16px;box-shadow: 0px 1px 1px -1px rgba(0,0,0,0.1);-webkit-box-shadow: 0 1px 1px -1px rgba(0,0,0,0.1);font-size: 13px;height: 22px;line-height: 22px;text-decoration: none;z-index: 1;}
+#wpft-upgrade-notice a {color: #DEFFD8; text-decoration:none;}
+.wpft_layout_group {margin:0}
+.wpft_layout_group:after {content:" "; display:block; clear:both; }
+.wpft_layout_group li {width: 162px; margin: 0 3px 3px; list-style: none; padding: 12px 1px 2px; float: left; display: block; height: 92px;background:#f2f2f2; font-size:13px; }
+.wpft_layout_group li img {max-width:100%;}
+.wpft_layout_group li span {text-align: center;display: block;}
+.active_layout {display:none;}
+.hollow {display: inline-block; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-property: background; transition-property: background; -webkit-transform: translateZ(0); transform: translateZ(0); box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);}
+.hollow:hover, .hollow:focus, .hollow:active {background: none;}
+.wp-picker-container .wp-color-picker {padding-left:5px;}
+
+
+/* Post Re-Order */
+
+#adv-settings label[for="testimonial-order-hide"] .dashicons{
+	display: none;
+}
+
+#adv-settings label[for="testimonial-order-hide"] .dashicons:before{
+	content: none;
+}
+
+#adv-settings label[for="testimonial-order-hide"] .title{
+	display: inline-block;
+}
+
+#adv-settings label[for="testimonial-order-hide"] .testimonial-order-actions a {
+	cursor: pointer;
+	display: inline-block;
+	font-size: .9em;
+	outline: none;
+	text-decoration: none;
+}
+
+#adv-settings label[for="testimonial-order-hide"] .testimonial-order-actions .disable {
+	cursor: default;
+	color: #ccc;
+}
+
+
+#adv-settings label[for="testimonial-order-hide"] .testimonial-order-actions:before {
+	content: "-";
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.wp-list-table .column-testimonial-order {
+	padding: 8px 0 8px 8px;
+	text-align: center;
+	width: 15px;
+}
+
+.wp-list-table .column-testimonial-order .title,
+.wp-list-table .column-testimonial-order .testimonial-order-actions {
+	display: none;
+}
+
+.wp-list-table .column-testimonial-order .dashicons {
+	font-size: 15px;
+	height: 20px;
+	width: 15px;
+}
+
+.wp-list-table .column-testimonial-order .dashicons.spinner {
+	background-position: 50% 50%;
+	display: block;
+	-webkit-background-size: 15px 15px;
+	   -moz-background-size: 15px 15px;
+		-ms-background-size: 15px 15px;
+		 -o-background-size: 15px 15px;
+			background-size: 15px 15px;
+	margin: -1px 0 0;
+}
+
+.wp-list-table .column-testimonial-order .dashicons.spinner:before {
+	content: none;
+}
+
+#the-list.ui-sortable tr {
+	cursor: move;
+}
+
+#the-list.ui-sortable .inline-editor,
+#the-list.ui-sortable .no-items,
+#the-list.ui-sortable-disabled tr {
+	cursor: auto;
+}
+
+#the-list.ui-sortable tr.sorted {
+	background-color: #0cf;
+}
+
+#the-list.ui-sortable tr {
+	-webkit-transition: background-color .2s ease-out 0;
+	   -moz-transition: background-color .2s ease-out 0;
+		-ms-transition: background-color .2s ease-out 0;
+		 -o-transition: background-color .2s ease-out 0;
+			transition: background-color .2s ease-out 0;
+}
+
+#the-list.ui-sortable tr:hover .column-testimonial-order {
+	border-left: 4px solid #0cf;
+}
+
+#the-list.ui-sortable tr.selected .column-testimonial-order {
+	border-left: 8px solid #0cf;
+}
+
+#the-list.ui-sortable tr.sorting th,
+#the-list.ui-sortable tr.sorting td,
+#the-list.ui-sortable tr.sorting a,
+#the-list.ui-sortable tr.sorting a:hover {
+	color: #ccc;
+}
+
+#the-list.ui-sortable tr.sorting:hover .row-actions {
+	visibility: hidden;
+}
+
+#the-list.ui-sortable tr.sorting .column-testimonial-order {
+	border-left: none;
+}
+
+#the-list.ui-sortable-disabled tr.selected .column-testimonial-order,
+#the-list.ui-sortable-disabled tr:hover .column-testimonial-order {
+	border-left: none;
+}
+
+#the-list .ui-sortable-helper>div {
+	background-color: #fff;
+	border: 1px solid #999;
+	height: auto;
+	margin: 0 0 1px;
+	min-height: 1em;
+	opacity: .8;
+	padding: .5em .8em;
+	width: auto;
+}
+
+#the-list .sortable-placeholder {
+	background-color: #0cf;
+	height: 2px;
+}
+
+#the-list .sortable-placeholder td {
+	padding: 0;
+}
+
+#the-list .sortable-placeholder div {
+	display: none;
+}
+
+@media screen and (max-width: 782px) {
+	.wpft_admin_table td {text-align: left;}
+}
+
+@media screen and (max-width: 340px) {
+	.wpft_layout_group li {margin: 2px; max-width:120px; float: left;}
+	.wpft_layout_group li label {font-size:12px;}
+	.wpft_layout_group li img {max-width: 100%;}
+	#TB_ajaxContent {max-width: 84%;}
+}

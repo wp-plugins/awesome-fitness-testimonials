@@ -1,0 +1,77 @@
+.wpft-wrap { background:#202E3F; background-image:url(images/background_default.png); background-repeat:repeat; padding: 3% 2% 40px; }
+
+.testimonial_box { position: relative; width: 90%; margin:0 auto;  clear: both; }
+
+.testimonial_box:after, 
+.wpft-wrap:after, 
+.t_image_container:after { display:block; clear:both; content:" "; }
+
+.t_inner_wrap { margin:0 auto; } /*max-width:600pxr; User defined optional value */
+
+.t_image_container { margin: 20px 0 40px; margin-left: 10px; padding: 7px; position:relative; float: right; }
+
+.testimonial_box .t_image_box_1, 
+.testimonial_box .t_image_box_2 { margin-bottom: 20px; width:50%; position:relative; float: left; }
+
+.testimonial_box .t_image_1, 
+.testimonial_box .t_image_2 { display:block; max-width: 100%; height: auto; margin: 0 8px; text-align:center; box-shadow: 0 0 0 7px #fff,0 30px 0 7px #fff, 0 41px 14px rgba(0,0,0,.25);-moz-box-shadow: 0 0 0 7px #fff,0 30px 0 7px #fff, 0 41px 14px rgba(0,0,0,.25);-webkit-box-shadow: 0 0 0 7px #fff,0 30px 0 7px #fff, 0 41px 14px rgba(0,0,0,.25); }
+
+.testimonial_box .t_image_box_2 { float: right; }
+
+.before-text, .after-text { position:absolute; bottom:-22px; left:0; width: 100%; font-weight:bold; color:#000; font-size:22px; text-transform: uppercase; font-family: 'Just Another Hand', cursive; letter-spacing: .02rem; z-index: 1; text-align: center; }
+
+.testimonial_box .t_name { padding:8px 8px 0 0; margin:9px 0 0 0; font-weight:bold; color:#fff; font-size:24px; }
+
+.testimonial_box .t_name::before { content:"- "; }
+
+.testimonial_box .t_subtext { font-size:16px; color:#fff; padding: 8px 8px 0 0; }
+
+.testimonial_box .t_subtext::before { display:inline-block; width:13px; content:" "; }
+
+.testimonial_box .t_quote { margin-bottom: 18px; padding: 15px 8px; font-size:33px; color:#fff; font-style:italic; font-weight:bold; text-transform: capitalize; line-height: 1; }
+
+.testimonial_box .t_content { padding: 0 8px; color:#fff; font-size: 14px;}
+
+.testimonial_box .t_content p { font-size: 14px; }
+
+.testimonial_box .t_image_single { display:block; float:right; margin:10px 0 10px 8%; padding:0; }
+
+.testimonial_box_noimage { margin:0 auto !important; }
+
+.testimonial_box_noimage .t_content::before { display: inline; float: left; padding: 0 10px 0 0; opacity: .25; font-family: FontAwesome; font-size: 30px; content: "\F10D "; }
+
+.wpft-wrap.item-even { background:transparent; }
+
+.wpft-wrap.item-even .t_content, 
+.wpft-wrap.item-even .t_quote, 
+.wpft-wrap.item-even .t_subtext, 
+.wpft-wrap.item-even .t_name { color:#000; }
+
+@media only screen and (max-width: 782px) {
+	.t_image_container { margin-left: auto; margin-right: auto; float: none; overflow: hidden;}
+	.testimonial_box_double .testimonial_box .t_image_1, 
+	.testimonial_box_double .testimonial_box .t_image_2 {margin: 0;}
+	.testimonial_box .wpft-gauge {display: block; margin: 0 auto;}
+	.testimonial_box .t_quote {text-align: center;}
+	.wpft-wrap.item-even .testimonial_box .t_image_container { float: none; margin-right: 0;}
+}
+
+@media only screen and (max-width: 320px) {
+	.testimonial_box .t_name {font-size: 100%;}
+	.testimonial_box .t_scale {background:none;}
+	.testimonial_box .t_subtext {font-size:90%;}
+	.testimonial_box .t_quote {font-size: 28px; padding: 0; }
+	.testimonial_box .t_content p {line-height:1.3;margin-bottom: 12px;}
+	.testimonial_box .before-text, 
+	.testimonial_box .after-text {font-size: 1em;}
+	.testimonial_box .t_image_box_1, 
+	.testimonial_box .t_image_box_2 {clear:both;float:none;width: 100%; }
+	.testimonial_box .t_image_1, 
+	.testimonial_box .t_image_2 { 
+		-moz-box-shadow: 0 0 0 5px #fff,0 30px 0 10px #fff, 5px 0 0 5px #fff, -5px 0 0 5px #fff, 0 41px 14px rgba(0,0,0,.25);
+		-webkit-box-shadow: 0 0 0 5px #fff,0 30px 0 10px #fff, 5px 0 0 5px #fff, -5px 0 0 5px #fff, 0 41px 14px rgba(0,0,0,.25);
+		box-shadow: 0 0 0 5px #fff,0 30px 0 10px #fff, 5px 0 0 5px #fff, -5px 0 0 5px #fff, 0 41px 14px rgba(0,0,0,.25);
+	}
+	.testimonial_box .t_image_1, .testimonial_box .t_image_2 {margin: 0 auto;
+display: block;}
+}
