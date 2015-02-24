@@ -597,11 +597,11 @@ function wpft_field_thumb_resize() {
 
 function wpft_field_thumb_width() {
 	global $wpft_options;
-	echo '<input name="wpft[thumb_width]" value="'.intval($wpft_options['thumb_width']).'" size="3" />px <span class="hastip" title="' . __( 'Maximum width images are allowed before re-sizing occurs. Your uploaded images need to be larger than this width.', WPFT_PLUGIN_TXT_DOMAIN ) . '"></span><p class="description">' . __( 'Your Uploaded images must be <strong>larger</strong> than this size or images will not be cropped.', WPFT_PLUGIN_TXT_DOMAIN ) . '</p>'; }
+	echo '<input type="text" name="wpft[thumb_width]" value="'.intval($wpft_options['thumb_width']).'" size="3" />px <span class="hastip" title="' . __( 'Maximum width images are allowed before re-sizing occurs. Your uploaded images need to be larger than this width.', WPFT_PLUGIN_TXT_DOMAIN ) . '"></span><p class="description">' . __( 'Your Uploaded images must be <strong>larger</strong> than this size or images will not be cropped.', WPFT_PLUGIN_TXT_DOMAIN ) . '</p>'; }
 
 function wpft_field_thumb_height() {
 	global $wpft_options;
-	echo '<input name="wpft[thumb_height]" value="'.intval($wpft_options['thumb_height']).'" size="3" />px <span class="hastip" title="' . __( 'Maximum height images are allowed before re-sizing occurs. Your uploaded images need to be larger than this width.', WPFT_PLUGIN_TXT_DOMAIN ) . '"></span>'; }
+	echo '<input type="text" name="wpft[thumb_height]" value="'.intval($wpft_options['thumb_height']).'" size="3" />px <span class="hastip" title="' . __( 'Maximum height images are allowed before re-sizing occurs. Your uploaded images need to be larger than this width.', WPFT_PLUGIN_TXT_DOMAIN ) . '"></span>'; }
 
 function wpft_field_thumb_alternate() {
 	global $wpft_options;
@@ -814,14 +814,7 @@ function wpft_admin_head_hook() {
 	$groups = get_terms( 'testimonial_group' );	
 	?>
 	<!-- TinyMCE Fitness Testimonials Shortcode Plugin -->
-	<script type="text/javascript"><?php if( $groups ) { ?>	
-	var wpft_plugin_groups = {
-	<?php 
-	foreach ( $groups as $group ) {
-		echo "'" . $group->term_id ."': '" . $group->name . "',\n\t";
-	} ?>
-	}; // end object
-	
+	<script type="text/javascript">
 	var wpftTexts = {
 		'button_title': '<?php _e( 'Testimonial Shortcodes', WPFT_PLUGIN_TXT_DOMAIN ); ?>',
 		'window_title': '<?php _e( 'Insert testimonial shortcode', WPFT_PLUGIN_TXT_DOMAIN ); ?>',
@@ -833,6 +826,13 @@ function wpft_admin_head_hook() {
 		'alert_message': '<?php _e( 'No testimonial group found!', WPFT_PLUGIN_TXT_DOMAIN ); ?>',
 		'not_set': '<?php _e( 'Not set', WPFT_PLUGIN_TXT_DOMAIN ); ?>'
 	};
+	<?php if( $groups ) { ?>	
+	var wpft_plugin_groups = {
+	<?php 
+	foreach ( $groups as $group ) {
+		echo "'" . $group->term_id ."': '" . $group->name . "',\n\t";
+	} ?>
+	}; // end object
 	<?php } else { ?>
 	var wpftGroupStatus = {'not_found': true};
 	<?php } // end if groups ?>
