@@ -4,7 +4,7 @@ Plugin Name: Awesome Fitness Testimonials
 Plugin URI: http://fitnesswebsiteformula.com/wordpress-fitness-testimonials
 Description: Get Higher Fitness Web Design Performance: Showcase fitness & wellness testimonials, reviews, and case studies better and easier.
 Author: Shingo Suzumura at Fitness Website Formula
-Version: 1.0
+Version: 1.0.1
 Author URI: http://fitnesswebsiteformula.com/
 Text Domain: awesome-fitness-testimonials
 Domain Path: /languages/
@@ -25,7 +25,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-define( 'WPFT_VERSION', '1.0' );
+define( 'WPFT_VERSION', '1.0.1' );
 define( 'WPFT_REQUIRED_WP_VERSION', '3.5' );
 define( 'WPFT_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
 define( 'WPFT_PLUGIN_NAME', trim( dirname( WPFT_PLUGIN_BASENAME ), '/' ) );

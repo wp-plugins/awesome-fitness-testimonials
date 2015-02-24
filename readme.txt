@@ -4,7 +4,7 @@ Tags: testimonials, review, feedback, fitness, wellness, testimonial showcase, m
 
 
 Requires at least: 3.5
-Tested up to: 4.1
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -41,9 +41,6 @@ Although this plugin is built primarily for fitness web design, its features mak
 
 ####  In Your Language ####
 * We made your the plugin is fully translation ready and we hope to have it translated in many languages. If you are good at translating and would like to contribute, please let us know. 
-
-####  Tutorial ####
-https://www.youtube.com/watch?v=IUdNHL9po-8
 
 ####  Feature Requests and Updates ####
 * [Get notified when new features are released](http://fitnesswebsiteformula.com/wordpress-fitness-testimonials/learn-more/ "Get updates")
@@ -116,6 +113,7 @@ For more information, see (http://fitnesswebsiteformula.com/fitness-testimonials
 == Changelog ==
 
 = 1.0.1 =
+* Various bug fixes
 * Improvement: added post edit links
 * changed: 2nd image will not be taller than the 1st image
 * Fixed: gauge will show up only when weight difference and [weight_gauge] tag is present in templates
