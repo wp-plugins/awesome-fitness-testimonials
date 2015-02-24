@@ -195,7 +195,7 @@ function wpft_content_ajax() {
 
 /**
  * Resize images dynamically using WordPress built in functions
- * Victor Teixeira
+ * Credit Victor Teixeira
  *
  * php 5.2+
  * @param str $img_url
@@ -235,10 +235,10 @@ function wpft_image_resize( $img_url, $width = 200, $height = 300, $crop = false
 		$file_path = ABSPATH . $path;
 	}
 	
-	$orig_size = @getimagesize( $file_path );
+	$orig_image = @getimagesize( $file_path );
 	$image_src[0] = $img_url;
-	$image_src[1] = $orig_size[0];
-	$image_src[2] = $orig_size[1];
+	$image_src[1] = $orig_image[0];
+	$image_src[2] = $orig_image[1];
 	
 	$file_info = pathinfo( $file_path );
 	$extension = '.' . $file_info['extension'];
@@ -269,7 +269,7 @@ function wpft_image_resize( $img_url, $width = 200, $height = 300, $crop = false
 		// crop = false
 		if ( $crop == false ) {
 		
-			// calculate the size proportionaly
+			// calculate the size proportionally
 			$proportional_size = wp_constrain_dimensions( $image_src[1], $image_src[2], $width, $height );
 			$resized_img_path = $no_ext_path.'-'.$proportional_size[0].'x'.$proportional_size[1].$extension;			
 
@@ -408,6 +408,11 @@ function wpft_get_testimonials( $atts, $content = '' ) {
 				'post_status' => 'publish',
 				'orderby' =>  array( 'menu_order' => 'ASC' , 'date' => 'DESC' )
 			);
+		
+		if( $wp_version < 4.0 ) { // Backward compatibility
+			$args['orderby'] = 'menu_order date';
+			$args['order'] = 'ASC';
+		}
 		
 		// Target specific Group taxonomy ID
 		if ( $atts['id'] ) {
