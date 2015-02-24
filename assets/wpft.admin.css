@@ -10,7 +10,7 @@
 .ace_editor {height:200px;}
 .wp-picker-holder {position: absolute;z-index: 1;}
 i.mce-i-icon {font: 400 20px/1 dashicons; padding: 0; vertical-align: top; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;  margin-left: -2px; padding-right: 2px; }
-i.wpftshortcode-own-icon {background-image: url(images/FWF-Icon-16.png);}
+i.wpftshortcode-own-icon, .mce_wpft_shortcode_button {background-image: url(images/FWF-Icon-16.png); background-repeat: no-repeat; background-size: cover;}
 .dashicons-wpft-order {background-image: url(images/dashicon-order.png);}
 
 /* jquery UI tabs */
